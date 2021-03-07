@@ -25,7 +25,7 @@ export default class Preferences {
     private valueCheck (param, string: string) {
         let ans = parseInt(question(string));
         while (ans > 5 || ans < 1) {
-            ans = parseInt(question('Please enter a value between 1 and 10: '));
+            ans = parseInt(question('Please enter a value between 1 and 5: '));
         }
         param = string;
     }

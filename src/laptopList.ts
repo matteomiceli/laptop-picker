@@ -14,7 +14,13 @@ export default class List {
         this._laptopList.push(laptop);
     }
 
-    compare () { // this function will weigh each laptop against user preference and push to _orderedList
+    getLaptops () {
+        return this._laptopList.forEach(element => {
+            
+        });
+    }
 
+    compare () { // this function will weigh each laptop against user preference and push to _orderedList
+        
     }    
 }
